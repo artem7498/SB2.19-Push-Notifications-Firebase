@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,13 @@
 		AC19A82326463CDE009F892E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC19A82126463CDE009F892E /* Main.storyboard */; };
 		AC19A82526463CDF009F892E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC19A82426463CDF009F892E /* Assets.xcassets */; };
 		AC19A82826463CDF009F892E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC19A82626463CDF009F892E /* LaunchScreen.storyboard */; };
+		AC19A830264647D0009F892E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC19A82F264647D0009F892E /* GoogleService-Info.plist */; };
+		ED6D82371455F8D3231FEF99 /* Pods_SB2_19_Push_Notifications_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2D97DB5D0BFFE293C1D57A /* Pods_SB2_19_Push_Notifications_Firebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A2D97DB5D0BFFE293C1D57A /* Pods_SB2_19_Push_Notifications_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SB2_19_Push_Notifications_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D340E98A9D9F0512F501BCB /* Pods-SB2.19 Push Notifications Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SB2.19 Push Notifications Firebase.release.xcconfig"; path = "Target Support Files/Pods-SB2.19 Push Notifications Firebase/Pods-SB2.19 Push Notifications Firebase.release.xcconfig"; sourceTree = "<group>"; };
 		AC19A81826463CDE009F892E /* SB2.19 Push Notifications Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SB2.19 Push Notifications Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC19A81B26463CDE009F892E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC19A81D26463CDE009F892E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		AC19A82426463CDF009F892E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC19A82726463CDF009F892E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC19A82926463CDF009F892E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC19A82F264647D0009F892E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCDEB7A0A6D3C80A7D5BBFED /* Pods-SB2.19 Push Notifications Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SB2.19 Push Notifications Firebase.debug.xcconfig"; path = "Target Support Files/Pods-SB2.19 Push Notifications Firebase/Pods-SB2.19 Push Notifications Firebase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6D82371455F8D3231FEF99 /* Pods_SB2_19_Push_Notifications_Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D21A3CB00C3E8DDBDB150D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCDEB7A0A6D3C80A7D5BBFED /* Pods-SB2.19 Push Notifications Firebase.debug.xcconfig */,
+				9D340E98A9D9F0512F501BCB /* Pods-SB2.19 Push Notifications Firebase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AC19A80F26463CDE009F892E = {
 			isa = PBXGroup;
 			children = (
 				AC19A81A26463CDE009F892E /* SB2.19 Push Notifications Firebase */,
 				AC19A81926463CDE009F892E /* Products */,
+				6D21A3CB00C3E8DDBDB150D6 /* Pods */,
+				C615C289214DB7568CD72665 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +80,18 @@
 				AC19A82126463CDE009F892E /* Main.storyboard */,
 				AC19A82426463CDF009F892E /* Assets.xcassets */,
 				AC19A82626463CDF009F892E /* LaunchScreen.storyboard */,
+				AC19A82F264647D0009F892E /* GoogleService-Info.plist */,
 				AC19A82926463CDF009F892E /* Info.plist */,
 			);
 			path = "SB2.19 Push Notifications Firebase";
+			sourceTree = "<group>";
+		};
+		C615C289214DB7568CD72665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A2D97DB5D0BFFE293C1D57A /* Pods_SB2_19_Push_Notifications_Firebase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC19A82C26463CDF009F892E /* Build configuration list for PBXNativeTarget "SB2.19 Push Notifications Firebase" */;
 			buildPhases = (
+				C40694758C26F9296F4F500A /* [CP] Check Pods Manifest.lock */,
 				AC19A81426463CDE009F892E /* Sources */,
 				AC19A81526463CDE009F892E /* Frameworks */,
 				AC19A81626463CDE009F892E /* Resources */,
+				9DC6678CB2BACE71B1E4F48B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +154,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC19A82826463CDF009F892E /* LaunchScreen.storyboard in Resources */,
+				AC19A830264647D0009F892E /* GoogleService-Info.plist in Resources */,
 				AC19A82526463CDF009F892E /* Assets.xcassets in Resources */,
 				AC19A82326463CDE009F892E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DC6678CB2BACE71B1E4F48B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SB2.19 Push Notifications Firebase/Pods-SB2.19 Push Notifications Firebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SB2.19 Push Notifications Firebase/Pods-SB2.19 Push Notifications Firebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SB2.19 Push Notifications Firebase/Pods-SB2.19 Push Notifications Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C40694758C26F9296F4F500A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SB2.19 Push Notifications Firebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC19A81426463CDE009F892E /* Sources */ = {
@@ -283,6 +355,7 @@
 		};
 		AC19A82D26463CDF009F892E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCDEB7A0A6D3C80A7D5BBFED /* Pods-SB2.19 Push Notifications Firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +375,7 @@
 		};
 		AC19A82E26463CDF009F892E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D340E98A9D9F0512F501BCB /* Pods-SB2.19 Push Notifications Firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

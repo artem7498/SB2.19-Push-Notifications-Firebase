@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>426988864799-0d6nqku9tpbkaukjdtsi1uk5u1aqn4bo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.426988864799-0d6nqku9tpbkaukjdtsi1uk5u1aqn4bo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDYM1uFPTmTVj4Ep180fl1G_rmqgxHtQ5U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>426988864799</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ArtemA.SB2-19-Push-Notifications-Firebase</string>
+	<key>PROJECT_ID</key>
+	<string>sb2-19-push-notifications</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sb2-19-push-notifications.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:426988864799:ios:7dc9add5c1dd3764a61c2a</string>
+</dict>
+</plist>
